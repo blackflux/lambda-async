@@ -1,11 +1,11 @@
 const expect = require('chai').expect;
 const { describe } = require('node-tdd');
-const lambdaAsync = require('../src/index');
+const { wrap } = require('../src/index');
 
 describe('Testing lambda-async', () => {
   let tester;
   before(() => {
-    tester = (handler) => new Promise((resolve, reject) => lambdaAsync(handler)(
+    tester = (handler) => new Promise((resolve, reject) => wrap(handler)(
       { event: 'event' },
       { context: 'context' },
       (err, resp) => {
