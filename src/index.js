@@ -1,4 +1,4 @@
-module.exports = (handler) => (event, context, callback) => {
+module.exports.wrap = (handler) => (event, context, callback) => {
   // eslint-disable-next-line no-param-reassign
   context.callbackWaitsForEmptyEventLoop = false;
 
