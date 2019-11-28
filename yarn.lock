@@ -179,10 +179,10 @@
   dependencies:
     smart-fs "1.11.0"
 
-"@blackflux/robo-config-plugin@2.6.17":
-  version "2.6.17"
-  resolved "https://registry.yarnpkg.com/@blackflux/robo-config-plugin/-/robo-config-plugin-2.6.17.tgz#23bce5b63f2d93fdf1fdbc71475d9f1a18f5b20a"
-  integrity sha512-Ys7aZlJawUxsOFonSk7u4oDa3ReiX1VYGNJAnqE857jRt9j2Ayj2f4PzwTUC0l5ZrdD331VwI+O5bwUAPjjAqA==
+"@blackflux/robo-config-plugin@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@blackflux/robo-config-plugin/-/robo-config-plugin-3.0.1.tgz#2ef76a88a10fcf16eec2336c74019b50bcf83eed"
+  integrity sha512-iC5/y0P8ucnBxj4Cjg49PLkN1KFdnBcveLoq1rr/76ZLB0skw3yCRqy/51/IphPjgpf1QP5hkYw7zY2cBEq1hg==
 
 "@hapi/address@^2.1.2":
   version "2.1.2"
@@ -4677,13 +4677,13 @@ node-pre-gyp@^0.12.0:
     semver "^5.3.0"
     tar "^4"
 
-node-tdd@2.5.18:
-  version "2.5.18"
-  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.5.18.tgz#b9d06830895c7346cdc3b16652477d1d7afa3e07"
-  integrity sha512-wGqh165nwO4yz2VaOTuaqcx7tfkogz9h0upThk0NlN8ogUa2QHf3VVdH/s20V5jFKQNc+FSvNpnW3X3oo1sKYQ==
+node-tdd@2.5.19:
+  version "2.5.19"
+  resolved "https://registry.yarnpkg.com/node-tdd/-/node-tdd-2.5.19.tgz#7cafc2e895e1a41afa48015a2f870f0dc714d340"
+  integrity sha512-u2hpfyMyvx0uGUVrPi6cqo31OCs/IcBiLfOx1TJpSHf+1zyp/HYKSAuvr79m6+IGChdcgT02f8kpaZRS+mUhCw==
   dependencies:
     callsites "3.1.0"
-    joi-strict "1.1.7"
+    joi-strict "1.1.8"
     lodash.get "4.4.2"
     nock "11.7.0"
     smart-fs "1.11.0"
