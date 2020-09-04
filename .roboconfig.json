@@ -8,6 +8,7 @@
       "packageName": "lambda-async",
       "projectName": "lambda-async",
       "owner": "simlu",
+      "nodeVersion": "10",
       "ownerName": "Lukas Siemon",
       "mergeBot": "MrsFlux"
     }
