@@ -75,7 +75,7 @@
     "branches": 100
   },
   "engines": {
-    "node": ">= 10"
+    "node": ">= 12"
   },
   "description": "Async wrapper around AWS Lambda handler",
   "scripts": {
