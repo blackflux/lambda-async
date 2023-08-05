@@ -1,21 +1,23 @@
-const expect = require('chai').expect;
-const { describe } = require('node-tdd');
-const { wrap } = require('../src/index');
+import { expect } from 'chai';
+import { describe } from 'node-tdd';
+import { wrap } from '../src/index.js';
 
 describe('Testing lambda-async', () => {
   let tester;
   before(() => {
-    tester = (handler) => new Promise((resolve, reject) => wrap(handler)(
-      { event: 'event' },
-      { context: 'context' },
-      (err, resp) => {
-        if (err !== null) {
-          reject(err);
-        } else {
-          resolve(resp);
+    tester = (handler) => new Promise((resolve, reject) => {
+      wrap(handler)(
+        { event: 'event' },
+        { context: 'context' },
+        (err, resp) => {
+          if (err !== null) {
+            reject(err);
+          } else {
+            resolve(resp);
+          }
         }
-      }
-    ));
+      );
+    });
   });
 
   it('Testing success (sync)', async () => {

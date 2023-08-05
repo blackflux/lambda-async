@@ -8,9 +8,10 @@
       "packageName": "lambda-async",
       "projectName": "lambda-async",
       "owner": "simlu",
-      "nodeVersion": "12",
+      "nodeVersion": "16",
       "ownerName": "Lukas Siemon",
       "mergeBot": "MrsFlux"
+,"nccEnabled": false
     }
   }
 }

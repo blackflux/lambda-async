@@ -1,4 +1,4 @@
-module.exports.wrap = (handler) => (event, context, callback) => {
+export const wrap = (handler) => (event, context, callback) => {
   context.callbackWaitsForEmptyEventLoop = false;
 
   Promise.resolve(handler(event, context))
