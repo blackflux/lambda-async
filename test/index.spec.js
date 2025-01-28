@@ -4,6 +4,7 @@ import { wrap } from '../src/index.js';
 
 describe('Testing lambda-async', () => {
   let tester;
+
   before(() => {
     tester = (handler) => new Promise((resolve, reject) => {
       wrap(handler)(

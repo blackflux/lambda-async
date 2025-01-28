@@ -8,7 +8,7 @@
       "packageName": "lambda-async",
       "projectName": "lambda-async",
       "owner": "simlu",
-      "nodeVersion": "16",
+      "nodeVersion": "20",
       "ownerName": "Lukas Siemon",
       "mergeBot": "MrsFlux"
 ,"nccEnabled": false
