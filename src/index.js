@@ -1,7 +1,4 @@
-export const wrap = (handler) => (event, context, callback) => {
+export const wrap = (handler) => async (event, context) => {
   context.callbackWaitsForEmptyEventLoop = false;
-
-  Promise.resolve(handler(event, context))
-    .then((r) => callback(null, r))
-    .catch((e) => callback(e));
+  return handler(event, context);
 };
